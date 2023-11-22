@@ -1,0 +1,134 @@
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMIEE HOME LIBRARY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: BLUE
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color:black
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        
+        }
+
+        section {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        form {
+            margin-top: 10px;
+        }
+
+        ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        ol li {
+            display: inline;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>EMMIEE HOME LIBRARY</h1>
+    
+</header>
+<div>WELCOME TO EMMIEE HOME LIBRARY</div>
+<nav>
+    <a href="#TITLE">TITLE</a>
+    <a href="#DESCRIPTION">DESCRIPTION</a>
+    <a href="#EDITION">EDITION</a>
+    <a href="#RESEARCH">RESEARCH</a>
+    <a href="#ASK-LIBRALIAN">ASK-LIBRARIAN</a>
+    <a href="#PUT-SUGGESTION">PUT-SUGGESTION</a>
+</nav>
+
+<img src="images.jpg">
+
+<section id="TITLE" class="TITLE">
+    <h2>TITLE</h2>
+    <form action="#" method="get">
+        <label for="TITLE">Search:</label>
+        <input type="text" id="TITLE" name="TITLE" placeholder="Enter keywords">
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+<section id="DESCRIPTION" class="DESCRIPTION">
+    <h2>DESCRIPTION</h2>
+    <form action="#" method="get">
+        <!-- Add your form fields for description here -->
+    </form>
+</section>
+
+<section id="EDITION">
+    <h2>EDITION</h2>
+    <form action="#" method="get">
+        <!-- Add your form fields for edition here -->
+    </form>
+</section>
+
+<section id="RESEARCH">
+    <h2>RESEARCH</h2>
+    <form action="#" method="get">
+        <label for="topic">Search:</label>
+        <input type="text" id="topic" name="topic" placeholder="Enter keywords">
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+<section id="ASK-LIBRALIAN">
+    <h2>ASK THE LIBRALIAN</h2>
+    <form action="#">
+        <!-- Add your form fields for asking librarian here -->
+    </form>
+</section>
+
+<ol>
+    <li><a href="#" title="EMMIEE200 COMMUNITY LIBRARY">EMMIEE200 COMMUNITY LIBRARY</a></li>
+    <li><a href="MAGZINES" title="MAGAZINES">MAGAZINES</a></li>
+    <li><a href="http://news papers" title="NEWS PAPERS">NEWS PAPERS</a></li>
+    <li><a href="https://elearning/" title="elearning">elearning</a></li>
+    <li><a href="research " title="research; Calendar">research' Calendar</a></li>
+</ol>
+
+</body>
+</html>
+0
